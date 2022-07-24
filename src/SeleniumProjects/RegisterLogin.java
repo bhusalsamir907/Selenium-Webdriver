@@ -29,7 +29,7 @@ public class RegisterLogin {
 
         driver.manage().window().maximize(); //maximizes the windows size
         System.out.println("-> Windows is Maximized");
-        driver.manage().timeouts().pageLoadTimeout(100, SECONDS);
+//        driver.manage().timeouts().pageLoadTimeout(100, SECONDS);
 
 
         driver.manage().deleteAllCookies();
